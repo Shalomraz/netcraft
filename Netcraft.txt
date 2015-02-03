@@ -1,0 +1,2 @@
+1. Organise password in git cache
+2. Google search for tags: mdn a tag
