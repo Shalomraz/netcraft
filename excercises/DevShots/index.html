@@ -112,32 +112,33 @@ The enterance is free but the number of sits is limited
 <p>We will be more than happy if you would sign up only if you really intend to come - 
 so we won't refuse to someone else.</p> 
 <p>All the details will remain confident and we won't transfer them to any one.</p>
-<form>
-  <table>
-    <tr>
-      <td><b>Full name</b></td>
-      <td><input type="text" name="first_and_last" placeholder="First and last name"></td>
-    </tr>
-    <tr>
-      <td><b>Position</b></td>
-      <td><input type="text" name="position" placeholder="What you do in a daily basis"></td>
-    </tr>
-    <tr>
-      <td><b>Organization</b></td>
-      <td><input type="text" name="organization" placeholder="Who pays you salary"></td>
-    </tr>
-    <tr>
-      <td><b>Phone number</b></td>
-      <td><input type="text" name="phone" placeholder="or cellular, we don't care"></td>
-    </tr>
-    <tr>
-      <td><b>Have friends?</b></td>
-      <td><input type="text" name="friends" placeholder="I've planty but I'm coming alone"></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td><button>Thats it! send me</button></td>
-  </table> 
+<form method="get">
+    <div>
+        <label for="fullname"><b>Full name</b></label>
+        <input type="text" name="fullname" id="fullname" value="" placeholder="First and last name">
+    </div>
+     
+    <div>
+        <label for="position"><b>Position</b></label>
+        <input type="text" name="position" id="position" value="" placeholder="What you do in a daily basis">
+    </div>
+      
+    <div>
+        <label for="organization"><b>Organization</b></label>
+        <input type="text" name="organization" id="organization" value="" placeholder="Who pays you salary">
+    </div>
+    
+    <div>
+        <label for="phone"><b>Phone number</b></label>
+        <input type="text" name="phone" id="phone" value="" placeholder="or cellular, we don't care">
+    </div>
+
+    <div>      
+        <label for="friends"><b>Have friends?</b></label>
+        <input type="text" name="friends" id="friends" value="" placeholder="I've planty but I'm coming alone">
+    </div>
+
+    <button type="submit">Thats it! send me</button>
 </form>
 
 <h3>Useful information</h3>
