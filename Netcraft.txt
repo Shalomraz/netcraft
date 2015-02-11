@@ -1,6 +1,0 @@
-1. Organise password in git cache
-2. Google search for tags: mdn a tag
-3. Minification - minify a web page for performance
-4. Use 2 spaces as indentation
-5. html block/inline elements
-6. ctrl+? for comments in sublime
