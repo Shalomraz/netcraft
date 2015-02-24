@@ -1,4 +1,25 @@
 body {
+    background: #00AAFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(odd),
+tr:nth-of-type(even) td:nth-of-type(even) {
+    background: black;
+}
+
+
+/*
+body {
 	background: #00AAFF;
 }
 
@@ -47,3 +68,4 @@ div {
     200px 350px white, 250px 350px black,
     300px 350px white, 350px 350px black 
 }
+*/
