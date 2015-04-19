@@ -1,0 +1,22 @@
+a[href]:before {
+  padding: 10px;
+  display: inline-block;
+  background-color: blue;
+  color: white;
+}
+
+a[href$='.pdf']:before {
+  content: "PDF";
+}
+
+a[href$='.txt']:before {
+  content: "TXT";
+}
+
+a[href^='http://netcraft.co.il']:before {
+  content: "Netcraft";
+}
+
+a[href^='http://walla.co.il']:before {
+  content: "Walla";
+}

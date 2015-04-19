@@ -1,0 +1,11 @@
+section:not(#tab-else) {
+  display: none;
+}
+
+section:target {
+  display: block !important;
+}
+
+section:target ~ #tab-else {
+  display: none;
+}
